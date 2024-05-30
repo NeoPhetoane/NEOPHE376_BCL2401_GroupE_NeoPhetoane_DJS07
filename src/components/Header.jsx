@@ -1,5 +1,7 @@
+// Importing the React library which is necessary for creating React components.
 import React from "react"
 
+// Defining a static functional component
 function Header() {
     return (
         <header className="header">
@@ -9,9 +11,9 @@ function Header() {
             />
             <h2 className="header--title">Meme Generator</h2>
             <h4 className="header--project">React Course - Project 3</h4>
-            <button>click me</button>
         </header>
     )
 }
 
+//It is exported so that other parts of the application can have access to it
 export default Header
