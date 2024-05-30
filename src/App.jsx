@@ -1,11 +1,15 @@
+import React from "react";
+import Header from "./components/Header";
+import Meme
 
 function App() {
-
   return (
     <>
-     <h1></h1>
+      <Header />
+
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
